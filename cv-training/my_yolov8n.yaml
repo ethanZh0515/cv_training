@@ -1,0 +1,10 @@
+# my yolov8n.yaml
+task: detect
+mode: train
+model: yolov8n.pt
+data: custom_coco128.yaml
+epochs: 30
+imgsz: 640
+batch: 4 # 16 memory error
+patience: 5
+# name: yolov8n-coco128-exp1
