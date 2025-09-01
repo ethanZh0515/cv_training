@@ -1,0 +1,9 @@
+# train bdd100k detection as yolo coco128
+task: detect
+mode: train
+model: yolov8n.pt
+data: bdd100k_data.yaml
+epochs: 75
+imgsz: 960
+batch: 16
+patience: 5

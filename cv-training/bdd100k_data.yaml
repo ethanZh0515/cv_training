@@ -1,0 +1,4 @@
+train: D:/zyx/pythonProject/cv_demos/cv-training/datasets/bdd100k/images/100k/train
+val: D:/zyx/pythonProject/cv_demos/cv-training/datasets/bdd100k/images/100k/val
+nc: 10
+names: ['car', 'bus', 'person', 'bike', 'truck', 'motor', 'train', 'rider', 'traffic sign', 'traffic light']
